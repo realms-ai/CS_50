@@ -1,0 +1,59 @@
+
+#include <stdio.h>
+#include <cs50.h>
+
+
+
+int
+main(void)
+{
+	float array[14] = {0.01, 0.02, 0.05, 0.10, 0.25, 0.50, 1.00, 2.00, 5.00, 10.00, 50.00, 100.00, 500.00, 1000.00};
+	int i;
+    	for( i = 0; i < 14; i++)
+    	{
+        	printf("%0.2f \n", array[i]);
+	}
+	float amount_paid, total_amount, amount_owed;
+	printf("Please enter the amount paid: ");				
+	amount_paid = GetFloat();
+	printf("%.2f \n", amount_paid);
+	printf("Please enter the Total amount: ");				
+	total_amount = GetFloat();
+	printf("%.2f \n", total_amount);
+	amount_owed = amount_paid - total_amount;
+	printf("Amount Owed: %.2f \n", amount_owed);
+
+	int j, l, m;
+	float k;
+	j = 1;
+	m = 0;
+	float array_coins[1000] = {};
+	
+	/*while(j==1)
+	{
+		printf("Great \n");*/		
+		for(i = 0; i < 1; i++)
+		{
+		    if(array[i] > amount_owed)     
+		        i = 14;
+		    k = amount_owed - array[i];
+		    printf("%.2f \n", k);
+		    l = i;
+		    
+		    	
+		}
+		printf("%.2f \n", k);
+		amount_owed = k;
+		array_coins[m] = array[l];
+		m = m + 1;
+		//if(amount_owed == 0)
+		    //j == 2;
+		     
+	//}
+	/*for (i = 0; i <= m;i++)
+	{
+		printf("Change %0.2f, \n", array_coins[i]);
+	}*/	 
+	return 0;
+	    
+}

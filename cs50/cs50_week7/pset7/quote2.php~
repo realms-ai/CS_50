@@ -1,0 +1,9 @@
+<?
+
+    // require common code
+    require_once("includes/common.php");
+    
+    $s = lookup($_POST["symbol"]);
+    echo $s->symbol;
+
+?>

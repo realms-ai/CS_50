@@ -1,0 +1,269 @@
+/****************************************************************************
+ * styles.css
+ *
+ * Computer Science 50
+ * Problem Set 7
+ *
+ * Global stylesheet.
+ ***************************************************************************/
+
+
+/* eliminate borders around images in anchor tags */
+a img
+{
+    border: 0;
+}
+
+/* defaults for body */
+body
+{
+    background: #ffffff;
+    color: #000000;
+    font-family: sans-serif;
+    margin: 0;
+}
+
+/* center text in bottom div */
+div#bottom
+{
+    margin: 1em;
+    text-align: center;
+}
+
+/* center text in middle div */
+div#middle
+{
+    text-align: center;
+}
+
+/* center text in top div */
+div#top
+{
+    text-align: center;
+}
+
+/* center text in bottom div */
+div#logout
+{
+    margin: 1em;
+    position:fixed;
+    height:20px;
+    width:180px;    
+    margin-left:1100px;
+    margin-top:10px;
+    text-align: center;
+}
+
+
+div#port
+{
+    margin: 1em;
+    position:fixed;
+    height:20px;
+    width:180px; 
+    border-style:solid; 
+    background-color:#FFF68F;   
+    margin-left:100px;
+    margin-top:40px;
+    text-align: center;
+}
+
+
+div#history
+{
+    margin: 1em;
+    position:fixed;
+    height:20px;
+    width:200px; 
+    border-style:solid; 
+    background-color:#00FA9A;       
+    margin-left:450px;
+    margin-top:280px;
+    text-align: center;
+}
+
+
+div#hist
+{
+    margin: 1em;
+    position:fixed;
+    
+    border-style:solid; 
+    background-color:#00FA9A;       
+    margin-left:100px;
+    margin-top:140px;
+    text-align: center;
+}
+
+/* center text in top div */
+div#pic
+{
+    margin: 1em;
+    position:fixed;
+    height:110px;
+    width:600px;            
+    margin-left:350px;
+    margin-top:10px;
+    text-align: center;
+}
+
+
+div#cass
+{
+    margin: 1em;
+    position:fixed;
+    height:20px;
+    width:330px; 
+    border-style:solid; 
+    background-color:#f4a460;       
+    margin-left:700px;
+    margin-top:280px;
+    text-align: center;
+}
+
+
+div#portpic
+{
+    margin: 1em;
+    position:fixed;
+    height:110px;
+    width:580px;       
+    border-style:solid;
+    background-color:#00FFFF;  
+    margin-left:450px;
+    margin-top:160px;
+    text-align: center;
+}
+
+div#quote
+{
+    margin: 1em;
+    position:fixed;
+    height:150px;
+    width:345px;  
+    border-style:solid; 
+    background-color:#40e0d0;         
+    margin-left:20px;
+    margin-top:120px;
+    text-align: center;
+}
+
+div#display
+{
+    margin: 1em;
+    position:fixed;
+    height:90px;
+    width:200px;        
+    border-style:solid;
+    background-color:#990066;  
+    margin-left:80px;
+    margin-top:5px;
+    text-align: center;
+}
+
+
+
+
+div#buys
+{
+    margin: 1em;
+    position:fixed;
+    height:100px;
+    width:345px;
+    border-style:solid;
+    color:yellow; 
+    background-color:blue;       
+    margin-left:20px;
+    margin-top:290px;
+    text-align: center;
+}
+
+div#berr
+{
+    margin: 1em;
+    position:fixed;
+    height:15px;
+    width:200px;
+    border-style:solid; 
+    background-color:orange;       
+    margin-left:100px;
+    margin-top:400px;
+    text-align: center;
+}
+
+div#sells
+{
+    margin: 1em;
+    position:fixed;
+    height:100px;
+    width:345px;
+    border-style:solid;
+    background-color:red;       
+    margin-left:20px;
+    margin-top:445px;
+    text-align: center;
+}
+
+div#serr
+{
+    margin: 1em;
+    position:fixed;
+    height:15px;
+    width:200px;
+    border-style:solid; 
+    background-color:orange;       
+    margin-left:100px;
+    margin-top:555px;
+    text-align: center;
+}
+
+div#portfolio
+{
+    margin: 1em;
+    position:fixed;               
+    margin-left:475px;
+    margin-top:320px;
+    text-align: center;
+}
+
+/* eliminate margins around forms */
+form
+{
+    margin: 0;
+}
+
+/* center tables */
+table
+{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+table#table1
+{
+	margin-left:20px;
+	margin-top:5px;
+}
+
+table#table2
+{
+	margin-left:20px;
+	margin-top:10px;
+}
+
+table#table4
+{
+	margin-left:20px;
+	margin-top:10px;
+}
+
+table#table3
+{
+	margin-left:0px;
+	margin-top:0px;
+}
+/* eliminate borders around table cells */
+td
+{
+    border: 1;
+}
